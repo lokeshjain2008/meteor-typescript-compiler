@@ -2,7 +2,7 @@ Package.describe({
 	name: 'meteortypescript:compiler',
 	summary: 'TypeScript compiler for Meteor',
 	git: 'https://github.com/meteor-typescript/meteor-typescript-compiler.git',
-	version: '3.1.0'
+	version: '3.2.0'
 });
 
 Package.onUse(function(api) {

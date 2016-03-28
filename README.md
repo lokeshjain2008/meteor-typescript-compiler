@@ -4,7 +4,7 @@ Adds TypeScript compiler to Meteor projects.
 
 ## Change Log
 
- * 3.1.0: updated to be based on [typescript](https://github.com/barbatus/typescript) package.
+ * 3.2.0: updated to be based on [typescript](https://github.com/barbatus/typescript) package.
 
 ## Installation
 
