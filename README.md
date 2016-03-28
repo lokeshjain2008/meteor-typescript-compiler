@@ -4,7 +4,7 @@ Adds TypeScript compiler to Meteor projects.
 
 ## Change Log
 
- * 3.1.0: updated to be based on this [typescript](https://github.com/barbatus/typescript) package.
+ * 3.1.0: updated to be based on [typescript](https://github.com/barbatus/typescript) package.
 
 ## Installation
 
@@ -50,6 +50,8 @@ npm install typings -g
 typings install meteor --ambient
 ````
 
-Current compiler doesn't make difference between declaration and regular TypeScript files and processes them all. Also it sticks to the Meteor isomorphic environment, which means it compiles files architercture-wise.
+Current compiler doesn't make difference between declaration and regular TypeScript files and processes them all.
 
-In other words, if you put declaration files, for example, in the server folder, they will be used for the server side code only.
+Also, it sticks to the Meteor isomorphic environment which means it compiles files architercture-wise.
+
+Or in other words, if you put declaration files, for example, in the server folder, they will be used for the server side code only.
