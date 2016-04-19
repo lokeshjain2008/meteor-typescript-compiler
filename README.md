@@ -50,7 +50,7 @@ npm install typings -g
 typings install meteor --ambient
 ````
 
-Current compiler doesn't make difference between declaration and regular TypeScript files and processes them all.
+Current compiler doesn't make difference between declaration and regular TypeScript files, and processes them all.
 
 Also, it sticks to the Meteor isomorphic environment which means it compiles files architercture-wise.
 
