@@ -36,22 +36,19 @@ All together default TypeScript compiler options of this compiler are:
 ````
 
 If you want to customize options, add `tsconfig.json` file to the root of your app.
+
 For more about available compiler options, please refer to the official [docs](http://www.typescriptlang.org/docs/handbook/compiler-options.html).
 
 ## Typings
 
-Recommended way to install typigns is to use typings tool.
+Recommended way to install typigns is to use `typings` tool.
 
 For example, to install Meteor declaration files, you'll need to run commands as follows:
 
 ````
 npm install typings -g
 
-typings install meteor --ambient
+typings install registry:env/meteor --ambient
 ````
 
-Current compiler doesn't make difference between declaration and regular TypeScript files, and processes them all.
-
-Also, it sticks to the Meteor isomorphic environment which means it compiles files architercture-wise.
-
-Or in other words, if you put declaration files, for example, in the server folder, they will be used for the server side code only.
+For more information, please read https://github.com/barbatus/typescript#typings.
