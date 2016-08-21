@@ -48,7 +48,7 @@ For example, to install Meteor declaration files, you'll need to run commands as
 ````
 npm install typings -g
 
-typings install registry:env/meteor --ambient
+typings install registry:env/meteor --global
 ````
 
 For more information, please read https://github.com/barbatus/typescript#typings.
